@@ -19,7 +19,8 @@
   "dependencies": {
     "-": "^0.0.1",
     "@modelcontextprotocol/sdk": "^0.6.1",
-    "force": "^0.0.3"
+    "force": "^0.0.3",
+    "puppeteer": "^24.4.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",
