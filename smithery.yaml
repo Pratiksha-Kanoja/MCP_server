@@ -1,0 +1,10 @@
+# Smithery.ai configuration
+startCommand:
+  type: stdio
+  configSchema: {}               # no configuration options
+  commandFunction: |-
+    (config) => ({
+      command: "node",
+      args: ["index.js"],
+      env: {}
+    })
